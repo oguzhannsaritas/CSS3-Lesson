@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="4">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .list1 {
+
+            list-style-type: none;
+
+
+        }
+
+        .list1 li::before {
+            content: "";
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+            background-image: url(img/lion.jpg);
+            background-size: 20px;
+            background-repeat: no-repeat;
+        }
+
+        .list2 {
+            list-style-type: square;
+            list-style: inside;
+        }
+
+
+        .list3 {
+            list-style-type: circle;
+            list-style-position: inside;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="list1">
+        liste 1
+        <li>Eleman1</li>
+        <li>Eleman2</li>
+        <li>Eleman3</li>
+    </ul>
+    <ul class="list2">
+        Liste 2
+        <li>Eleman1</li>
+        <li>Eleman2</li>
+        <li>Eleman3</li>
+    </ul>
+    <ul class="list3">
+        liste 3
+        <li>Eleman1</li>
+        <li>Eleman2</li>
+        <li>Eleman3</li>
+    </ul>
+</body>
+
+</html>

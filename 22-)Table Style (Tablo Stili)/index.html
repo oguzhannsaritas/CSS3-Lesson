@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: separate;
+            /* tablo ayrıştırma yada daraltamda kullanılır */
+            border-spacing: 10px 50px;
+            /* boşluk vermede kullanılır x ve y eksenine göre değer value atanır */
+            caption-side: top;
+            /*caption-side = Tablo başlığının yerini belirleme */
+            empty-cells: hide;
+            /*"Hide" Gizlemek tablo içindeki boşluk olan değerleri gizler <td>    <td> gibi mesela */
+            width: 50%;
+            border: 5px solid red;
+            table-layout: auto;
+        }
+        table tr td{
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Renk Tablosu</caption> <!-- caption = Tabloya başlık verme de kullanılır. -->
+        <tr>
+            <td style="width: 20%;">Kırmızı</td>
+            <td style="width: 30%;">Yeşil</td>
+            <td style="width: 40%;">Mor</td>
+        </tr>
+        <tr>
+            <td>Maviiiiiiiiiii</td>
+            <td>Pembe</td>
+            <td>Kahverengi</td>
+        </tr>
+    </table>
+
+
+
+</body>
+
+</html>
